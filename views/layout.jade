@@ -1,0 +1,13 @@
+doctype html
+html(ng-app='loginApp')
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/bower_components/angular/angular.js")
+    script(src="/bower_components/angular-resource/angular-resource.js")    
+    script(src="/bower_components/angular-ui-router/release/angular-ui-router.min.js")
+    script(src='/javascripts/loginapp.js')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+
+body
+    block content
